@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Employee Payroll Sytem</h2>
+    <div class="form-group">
+        <label for="employeeType">Employee Type:</label>
+        <input type="text" id="employeeType" placeholder="Enter employee type">
+    </div>
+
+    <div class="form-group">
+        <label for="id">Employee ID:</label>
+        <input type="number" id="id" placeholder="Enter employee ID">
+    </div>
+
+    <div class="form-group">
+        <label for="name">Employee Name:</label>
+        <input type="text" id="name" placeholder="Enter employee name">
+    </div>
+
+    <div id="additionalFields" class="form-group"></div>
+
+    <button onclick="submitForm()">Calculate Payroll</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

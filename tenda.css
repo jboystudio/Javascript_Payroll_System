@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.home{
+    color: blue;
+    
+
+}
+#btn{
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+    border: none;
+    box-shadow: solid  black 2px;
+}
+
+#btn:hover{
+    color: green;
+    background-color: orange;
+}
